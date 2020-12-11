@@ -22,10 +22,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfm-hci.so \
     vendor/xiaomi/surya/proprietary/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/xiaomi/surya/proprietary/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libfm-hci.so \
-    vendor/xiaomi/surya/proprietary/bin/cameraserver:$(TARGET_COPY_OUT_SYSTEM)/bin/cameraserver \
     vendor/xiaomi/surya/proprietary/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/xiaomi/surya/proprietary/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM)/bin/wfdservice \
-    vendor/xiaomi/surya/proprietary/etc/init/cameraserver.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/cameraserver.rc \
     vendor/xiaomi/surya/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
     vendor/xiaomi/surya/proprietary/etc/permissions/com.nxp.nfc.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.nxp.nfc.xml \
     vendor/xiaomi/surya/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
@@ -35,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
     vendor/xiaomi/surya/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/xiaomi/surya/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
-    vendor/xiaomi/surya/proprietary/lib/libcameraservice.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcameraservice.so \
     vendor/xiaomi/surya/proprietary/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmosal.so \
     vendor/xiaomi/surya/proprietary/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmparser_lite.so \
     vendor/xiaomi/surya/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
@@ -60,32 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsinkinterface.so \
     vendor/xiaomi/surya/proprietary/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrc.so \
     vendor/xiaomi/surya/proprietary/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwfduibcsrcinterface.so \
-    vendor/xiaomi/surya/proprietary/lib64/libCameraEffectJNI.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libCameraEffectJNI.so \
-    vendor/xiaomi/surya/proprietary/lib64/libarcsoft_deflicker.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_deflicker.so \
-    vendor/xiaomi/surya/proprietary/lib64/libarcsoft_single_chart_calibration.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_single_chart_calibration.so \
-    vendor/xiaomi/surya/proprietary/lib64/libarcsoft_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libarcsoft_wideselfie.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_960_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_960_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_arcsoft_beautyshot.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_beautyshot.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_arcsoft_handgesture.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_arcsoft_handgesture.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_beauty_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_beauty_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_handgesture_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_handgesture_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcamera_wideselfie_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcamera_wideselfie_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcit_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcit_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcom.xiaomi.camera.algojni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.algojni.so \
-    vendor/xiaomi/surya/proprietary/lib64/libcom.xiaomi.camera.mianodejni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcom.xiaomi.camera.mianodejni.so \
-    vendor/xiaomi/surya/proprietary/lib64/libdeflicker_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdeflicker_jni.so \
-    vendor/xiaomi/surya/proprietary/lib64/libgallery_arcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_arcsoft_dualcam_refocus.so \
-    vendor/xiaomi/surya/proprietary/lib64/libgallery_mpbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgallery_mpbase.so \
-    vendor/xiaomi/surya/proprietary/lib64/libhandengine.arcsoft.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhandengine.arcsoft.so \
-    vendor/xiaomi/surya/proprietary/lib64/libjni_wideselfie.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libjni_wideselfie.so \
     vendor/xiaomi/surya/proprietary/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmosal.so \
     vendor/xiaomi/surya/proprietary/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmparser_lite.so \
     vendor/xiaomi/surya/proprietary/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/surya/proprietary/lib64/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmmrtpencoder.so \
     vendor/xiaomi/surya/proprietary/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqdMetaData.so \
     vendor/xiaomi/surya/proprietary/lib64/libqdMetaData.system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqdMetaData.system.so \
-    vendor/xiaomi/surya/proprietary/lib64/libqvrcamera_client.qti.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqvrcamera_client.qti.so \
-    vendor/xiaomi/surya/proprietary/lib64/librefocus.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librefocus.so \
     vendor/xiaomi/surya/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
     vendor/xiaomi/surya/proprietary/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdcommonutils.so \
     vendor/xiaomi/surya/proprietary/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdconfigutils.so \
@@ -121,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/product/lib/libdpmframework.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmframework.so \
     vendor/xiaomi/surya/proprietary/product/lib/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdpmtcm.so \
     vendor/xiaomi/surya/proprietary/product/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.fm@1.0.so \
-    vendor/xiaomi/surya/proprietary/product/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/xiaomi/surya/proprietary/product/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/surya/proprietary/product/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/surya/proprietary/product/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.hardware.fm@1.0.so \
